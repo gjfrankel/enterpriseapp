@@ -51,5 +51,4 @@ test:
 production:
   <<: *default
   database: enterpriseapp_production
-  username: enterpriseapp
   password: <%= ENV['ENTERPRISEAPP_DATABASE_PASSWORD'] %>
